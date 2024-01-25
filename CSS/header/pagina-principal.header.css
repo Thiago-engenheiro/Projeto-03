@@ -1,0 +1,68 @@
+/* conteudo cabecalho da pagina */
+/* _______________________________________________________________________________________ */
+
+@import url(./pagina-principal.header.hamburgue.css);
+
+.cabecalho__menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 1em 0.5em 1em 0.5em;
+    position: relative;
+
+}
+
+.container__botao:checked ~ .cabecalho__menu__lista__menu{
+
+    display: block;
+
+}     
+
+.cabecalho__menu__lista__menu {
+
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 55vw;
+    background-color: var(--cor-primaria-interacao);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}    
+
+.container {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__menu__lista__menu__titulo {
+
+    padding: 1em;
+    color: var(--cor-quartenaria);
+    font-weight: 700;
+}  
+
+.cabecalho__menu__lista__menu__intem {
+
+    padding: 1em;
+
+}
+
+.cabecalho__menu__lista__menu__link {
+
+    background: var(--cor-terciaria);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+
+}    
+
+.container__imagem {
+
+    margin: 0em 0.8em 1em 0.8em;
+
+}   
