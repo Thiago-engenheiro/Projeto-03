@@ -1,0 +1,14 @@
+/* conteudo carrossel de imagens da pagina */
+/* _______________________________________________________________________________________ */
+
+.conteudo__principal__carrossel__titulo {
+
+    color: var(--cor-quartenaria);
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    
+}    

@@ -19,8 +19,15 @@
     <title>AluraBooks</title>
     
     <link rel="stylesheet" type="text/css" href="./CSS/reset.css"> 
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <link rel="stylesheet" type="text/css" href="./CSS/pagina-principal.css "> 
     <link rel="stylesheet" type="text/css" href="./CSS/header/pagina-principal.header.css "> 
+    <link rel="stylesheet" type="text/css" href="./CSS/Main/pagina-principal.main.css "> 
 
 </head>
 
@@ -112,7 +119,7 @@
                 <a 
                         
                     href= " " target="_blank"> <!-- não vai ter link -->
-                    <img class="container__imagem" src="./Imagens/imagens-codigo/Usuario.svg" alt="icone do perfil de usuario"  > 
+                    <img class="container__imagem" src="./Imagens/imagens-codigo/Usuario.svg" alt="icone do perfil de usuario"> 
                         
                 </a>
 
@@ -124,9 +131,63 @@
 
     <!-- --------------------------------------------------------------------------------------------------------------------- -->
 
-    <main>
+    <main class="conteudo__principal">
 
-        <!-- sem conteudo ainda -->
+        <section class="conteudo__principal__banner">
+
+            <h2 class="conteudo__principal__banner__titulo">
+
+                Já sabe por onde começar?
+
+            </h2>
+
+            <p class="conteudo__principal__banner__paragrafo">
+
+                Encontre em nossa estante o que precisa para seu desenvolvimento!
+
+            </p>
+
+            <input type="search" class="conteudo__principal__banner__caixa__de__pesquisa" placeholder="Qual sera sua proxima leitura ?">
+
+
+        </section>
+
+        <section class="conteudo__principal__carrossel">
+
+            <h2  class="conteudo__principal__carrossel__titulo">
+
+                últimos lançamentos
+
+            </h2>
+
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+  
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+  
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+            </div>
+            
+        </section>
+
+        <section class="conteudo__principal__card__sugestao">
+
+            <!-- sem conteudo ainda -->
+
+        </section>
 
     </main>
 
@@ -139,6 +200,9 @@
     </footer>
 
     <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>    
 
