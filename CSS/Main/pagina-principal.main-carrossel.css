@@ -11,4 +11,22 @@
     text-align: center;
     background-color: var(--cor-primaria);
     
+}
+
+.swiper {
+
+    margin: 1em 0em 0em 0em;
+
+}    
+
+.swiper-slide img {
+
+    width: 110%;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+
+    display: none;
+
 }    
