@@ -36,7 +36,7 @@
 
     display: none;
     position: absolute;
-    top: 130%;
+    top: 100%;
     width: 55vw;
     background-color: var(--cor-primaria-interacao);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);

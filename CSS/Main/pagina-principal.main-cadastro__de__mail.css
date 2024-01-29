@@ -1,0 +1,63 @@
+/* conteudo cadastro de mail de pagina */
+/* _______________________________________________________________________________________ */
+
+.conteudo__principal__cadastro__de__mail {
+
+    background-color: var(--cor-primaria);
+    padding: 1.5em 1em 1.5em 1em;
+
+}    
+
+.conteudo__principal__cadastro__de__mail__titulo {
+
+    background: var(--cor-terciaria);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 700; 
+    text-align: left;
+
+}
+
+.conteudo__principal__cadastro__de__mail__paragrafo {
+
+    background: var(--cor-terciaria);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 500; 
+    text-align: left;
+    margin: 1em 0em 1em 0em;
+
+}
+
+.conteudo__principal__cadastro__de__mail__caixa__de__pesquisa {
+
+    padding: 1em;
+    border: 1px solid #002F52;
+    padding: 1em;
+    border-radius: 24px;
+    width: 100%;
+    background: var(--cor-terciaria);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}    
+
+
+.conteudo__principal__cadastro__de__mail__caixa__de__pesquisa::placeholder {
+
+    text-align: left;
+    background: var(--cor-terciaria);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: center;
+    background: url(../../Imagens/imagens-codigo/Email.svg) no-repeat;
+    background-position: 0.5em;
+}    

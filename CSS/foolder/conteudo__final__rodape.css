@@ -1,0 +1,22 @@
+/* conteudo final rodape */
+/* _______________________________________________________________________________________ */
+
+.conteudo__final__rodape {
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-quartenaria);
+    border-top: 1px solid var(--cor-secundaria);
+    padding: 1.2em 0.5em 1.2em 0.5em;
+    gap: 15px;
+  
+}    
+
+.conteudo__final__rodape__texto {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    text-align: center;
+
+}    

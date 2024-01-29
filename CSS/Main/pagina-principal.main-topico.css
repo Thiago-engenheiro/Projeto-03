@@ -1,3 +1,46 @@
 /* conteudo do topico da pagina */
 /* _______________________________________________________________________________________ */
-  
+
+.conteudo__principal__topicos {
+
+    background: var(--cor-terciaria);
+    padding: 1em 0.5em 1em 0.5em;
+    
+ 
+}  
+
+.conteudo__principal__topicos__titulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaria);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding: 1em 0em 0em 0em;
+
+}  
+
+.conteudo__principal__topicos__titulo__todos__os_botoes {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 2em 0em 0em 0em;
+   
+} 
+
+.conteudo__principal__topicos__titulo__botao {
+
+    color: var(--cor-primaria);
+    font-size: 14px;
+    font-weight: 700;  
+    text-align: center;
+
+    background-color: var(--cor-quartenaria);
+    
+    padding: 1.5em;
+    text-decoration: none;
+    
+
+}    
