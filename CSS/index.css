@@ -1,0 +1,43 @@
+/*  importacoes de estilo  */
+/* _______________________________________________________________________________________ */
+
+/*  importacoes de estilo do header  */
+@import url("../CSS/header/cabecalho.css");
+@import url("../CSS/header/menu.hamburguer.css");
+/*  importacoes de estilo do main  */
+
+/*  importacoes de estilo do footer */
+
+/*  importacoes de fontes */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+/* Todo o conteudo da pagina  */
+/* _______________________________________________________________________________________ */
+
+/* Variaveis globais */
+:root {
+
+    /* estilização */
+    --cor-primaira :  #FFFFFF;
+    --cor-secundaria : #d3d3d3;
+    --cor-terceiaria :  #000000;
+    --cor-quartenaria :  linear-gradient(98deg, #002F52 35.49%, #326589 165.37%); 
+    --cor-quintenaria:  #EB9B00; 
+
+
+    --fonte-principal: '';
+    --fonte-secundaria: 'Josefin Sans', sans-serif;
+     
+}
+
+.pagina__inteira {
+
+    background-color: var(--cor-secundaria);
+    color: var(--cor-terceiaria);
+
+
+}
+
+
+

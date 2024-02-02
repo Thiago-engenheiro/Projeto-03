@@ -1,0 +1,52 @@
+@import url("../header/menu.hamburguer.css");
+
+.cabecalho__inteiro {
+
+    display: flex;
+    position: relative;
+    margin: 20px 10% 20px 10%;
+
+}
+
+.cabecalho__parte1 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__parte2 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecalho__parte3 {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.checkbox__botao {
+
+    display: none;
+
+}
+
+.cabecalho__parte1__nome__do__site { 
+
+    font-family: var(--fonte-secundaria);
+    width: 700;
+    size: 30px;
+    
+}    
+
+.cabecalho__parte1__nome__do__site__negrito {
+
+    font-family: var(--fonte-secundaria);
+    width: 400;
+    size: 30px;
+
+}     
