@@ -1,0 +1,58 @@
+.conteudo__principal__rodape {
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 40px;
+    
+}  
+
+.conteudo__principal__rodape__secao {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}  
+
+.conteudo__principal__rodape__secao__titulo__Alura {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-terceiaria);
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: center;
+    
+    
+}  
+
+.conteudo__principal__rodape__secao__um__titulo__dono {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaira);
+    font-size: 1.0em;
+    font-weight: 700;
+    text-align: left;
+    background-color: var(--cor-quintenaria);
+
+    padding: 2px 0px 2px 40px;
+    
+}  
+
+.conteudo__principal__rodape__secao__imagem {
+
+    width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
+    
+}  
+
+.conteudo__principal__rodape__secao__titulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-setimaria);
+    font-size: 0.9em;
+    font-weight: 400;
+    text-align: left;
+    
+} 
+

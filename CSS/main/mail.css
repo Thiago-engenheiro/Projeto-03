@@ -1,0 +1,57 @@
+.conteudo__principal__mail {
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+    background-color: var(--cor-primaira);
+}    
+ 
+.conteudo__principal__mail__lado_esquerdo {
+
+    justify-content: left;
+}    
+
+.conteudo__principal__mail__lado_esquerdo_titulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-sextiaria);
+    font-size: 1.5em;
+    font-weight: 500;
+  
+    
+
+    
+}    
+
+.conteudo__principal__mail__lado_esquerdo_paragrafo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-sextiaria);
+    font-size: 1em;
+    font-weight: 300;
+    margin: 15px 0px 0px 0px;
+
+    
+}    
+
+.conteudo__principal__mail__lado__direito__caixa__de_pesquisa {
+
+    border: 1px solid var(--cor-sextiaria);
+    padding: 1.2em;
+    border-radius: 90px;
+    width: 500px;
+    
+}  
+
+.conteudo__principal__mail__lado__direito__caixa__de_pesquisa::placeholder {
+
+    text-align: center;
+    font-family: var(--fonte-principal);
+    color: var(--cor-sextiaria);
+    font-size: 1.5em;
+    font-weight: 400;
+    background: url("../../IMAGENS/Imagens--Codigo/Icones/mail_black_24dp\ 1.png") no-repeat;
+    background-position: 5%;
+    background-size: 1.7em;
+}  

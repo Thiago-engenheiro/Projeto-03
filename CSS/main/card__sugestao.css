@@ -1,0 +1,89 @@
+.conteudo__principal__card__sugestao {
+
+    display: flex;
+    background-color: var(--cor-primaira);
+    padding: 30px 20px 30px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 650px;
+    height: 250px;
+
+}   
+
+.conteudo__principal__card__sugestao__esquerdo {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 10px;
+    margin: 0px 130px 0px 0px;
+
+}   
+
+.conteudo__principal__card__sugestao__esquerdo__titulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-quintenaria);
+    font-size: 2em;
+    font-weight: 700;
+
+}   
+
+.conteudo__principal__card__sugestao__esquerdo_subtitulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-sextiaria);
+    font-size: 1.2em;
+    font-weight: 700;
+
+}   
+
+.conteudo__principal__card__sugestao__esquerdo_paragrafo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-terceiaria);
+    font-size: 1em;
+    font-weight: 400;
+    margin: 25px 0px 0px 0px;
+
+}   
+
+.conteudo__principal__card__sugestao__esquerdo__div__icones {
+
+    display: flex;
+    gap: 25px;
+    margin: 40px 0px 0px 0px;
+
+}   
+
+
+.conteudo__principal__card__sugestao__direito {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}  
+
+.conteudo__principal__card__sugestao__direito__imagem {
+
+    width: 160px;
+ 
+}  
+
+.conteudo__principal__card__sugestao__direito__botao {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-primaira);
+    font-size: 1em;
+    font-weight: 700;
+    background-color: var(--cor-quintenaria);
+    padding: 20px 30px 20px 30px ;
+
+}  
+
+.conteudo__principal__card__sugestao__esquerdo__estrelas {
+
+    width: 100px;
+
+}    

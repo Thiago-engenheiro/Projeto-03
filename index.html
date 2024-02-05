@@ -1,0 +1,768 @@
+<!-- 
+    
+    Criador: Thiago Abraao
+    Data inicial: 02/02/2024
+    Data final: indefindo 
+    Objetivo: Meu terceiro projeto do Alura (refazendo para ajustar alguns erros cometidos ) 
+    
+-->
+
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurabooks</title>
+    
+
+    <link 
+        rel="stylesheet" type="text/css" 
+        href="./CSS/reset.css"
+    > 
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+
+    <link 
+        rel="stylesheet" type="text/css" 
+        href="./CSS/index.css"
+    > 
+
+
+
+</head>
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+<body class="pagina__inteira">
+
+    <header class="cabecalho__inteiro">
+
+        <section class="cabecalho__parte1">
+
+            <img class="cabecalho__parte1__icone"
+
+                src="./IMAGENS/Imagens--Codigo/Icones/Logo.png" alt="icone do site"
+                
+            >  
+                    
+            <h2 class="cabecalho__parte1__nome__do__site">
+
+                <b class="cabecalho__parte1__nome__do__site__negrito">Alura</b>Books 
+                        
+            </h2>
+
+        </section>
+
+        <section class="cabecalho__parte2">
+            
+            </nav class="cabecalho__parte2__navegacao">
+
+                <ul>
+
+                    <li>
+
+                        <input type="checkbox" id="menu" class="checkbox__botao">
+                        <label for="menu" class="cabecalho__parte2__navegacao__expande intens__fundo__diferente">
+                            
+                            Categorias
+
+                        </label>
+
+                        <span class="seta"></span>
+
+                        <ul class="cabecalho__parte2__navegacao__categorias__lista">
+                        
+                            <li class="cabecalho__parte2__navegacao__intens">
+                                
+                                <a class="cabecalho__parte2__navegacao__intens__link"
+                                href= " " target="_blank" > <!-- não vai ter link -->
+                                Programação
+                            
+                                </a>
+                            </li>
+
+                            <li class="cabecalho__parte2__navegacao__intens">
+                                
+                                <a class="cabecalho__parte2__navegacao__intens__link"
+                                href= " " target="_blank" > <!-- não vai ter link -->
+                                front-end
+                                </a>
+                            
+                            </li>
+
+                            <li class="cabecalho__parte2__navegacao__intens">
+                            
+                                <a class="cabecalho__parte2__navegacao__intens__link"
+                                href= " " target="_blank" > <!-- não vai ter link -->
+                                infraestrutura
+                                </a>
+                            
+                            </li>
+
+                            <li class="cabecalho__parte2__navegacao__intens">
+                            
+                                <a class="cabecalho__parte2__navegacao__intens__link"
+                                href= " " target="_blank" > <!-- não vai ter link -->
+                                business
+                                </a>
+                            
+                            </li>
+
+                            <li class="cabecalho__parte2__navegacao__intens">
+                            
+                                <a class="cabecalho__parte2__navegacao__intens__link"
+                                href= " " target="_blank" > <!-- não vai ter link -->
+                                desing & ux
+                                </a>
+                            
+                            </li>
+
+                        </ul>
+
+
+                    </ul>
+
+                    </li>
+
+                    <li>
+
+                        <a class="cabecalho__parte2__navegacao__intens__link intens__fundo__diferente">
+
+                            Favoritos
+
+                        </a>
+
+                    </li>
+
+                    <li>
+
+                        <a class="cabecalho__parte2__navegacao__intens__link intens__fundo__diferente">
+
+                        Minha Estante  
+
+                        </a>
+                        
+                    </li>
+
+                </ul>
+
+        </nav>
+
+    </section>   
+    
+    <section class="cabecalho__parte3" >
+
+        <div class="cabecalho__parte3__compras cabecalho__parte3__conjunto" >
+
+            <img class="cabecalho__parte3__icone"
+
+                src="./IMAGENS/Imagens--Codigo/Icones/icone_carrinho_de_compras.png" alt="icone de carrinho de compras"
+            
+            >  
+
+            <p class="cabecalho__parte3__nome__icone">
+
+                Minha sacola
+
+            </p>
+
+        </div>
+
+        <div class="cabecalho__parte3__perfil cabecalho__parte3__conjunto">
+
+            <img class="cabecalho__parte3__icone"
+
+                src="./IMAGENS/Imagens--Codigo/Icones/icone_perfil.png" alt="icone do perfil"
+            
+            >
+            
+            <p class="cabecalho__parte3__nome__icone">
+
+                Meu perfil 
+                
+            </p>
+
+        </div>
+
+    </section>
+
+
+    </header>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+    <main class="conteudo__principal">
+
+        <section class="conteudo__principal__banner">
+
+            <h1 class="conteudo__principal__banner__titulo">
+
+                Já sabe por onde começar?
+
+            </h1>
+
+            <p class="conteudo__principal__banner__paragrafo">
+
+                Encontre em nossa estante o que precisa para seu desenvolvimento!
+
+            </p>
+
+            <input type="search" class="conteudo__principal__banner__caixa__de__pesquisa" placeholder="Qual sera sua proxima leitura ?">
+
+        </section>
+
+        <section class="conteudo__principal__carrossel">
+
+            <h2  class="conteudo__principal__carrossel__titulo">
+
+                últimos lançamentos
+
+            </h2>
+
+            <div class="conteudo__principal__carrossel__divisao">
+
+                <div class="conteudo__principal__carrossel__com__paginacao">
+
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Acessibilidade.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Angular.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/ApacheKafka.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Arquitetura.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Construct2.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Gestão.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Gestão2.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Javascript.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Liderança.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/MEAN.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/MetricasAgeis.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Nodejs.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Portugol.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/ReactNative.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Tuning.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/UX.png" alt="livro"></div>
+                    ...
+                    </div>
+            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper__setas"></div>
+                    <div class="swiper-button-next swiper__setas"></div>
+            
+                    <!-- If we need scrollbar -->
+                    </div>
+                
+                </div>
+
+                <section class="conteudo__principal__card__sugestao">
+
+                    <div class="conteudo__principal__card__sugestao__esquerdo">
+                        
+                        <h2 class="conteudo__principal__card__sugestao__esquerdo__titulo">
+                            
+                            Talvez você também se interesse por...
+                            
+                        <h2>
+
+                        <h3 class="conteudo__principal__card__sugestao__esquerdo_subtitulo">
+                            
+                            Angular 11 e Firebase
+                                
+                        <h3>
+
+                        <p class="conteudo__principal__card__sugestao__esquerdo_paragrafo">
+
+                            Construindo uma aplicação integrada com a plataforma do Google.
+
+                        </p>    
+
+                        <div class="conteudo__principal__card__sugestao__esquerdo__div__icones">
+
+                            <img class="conteudo__principal__card__sugestao__esquerdo__icones"
+
+                                src="./IMAGENS/Imagens--Codigo/Icones/Favoritos.png" alt="icone favorito"
+                    
+                            > 
+
+                            <img class="conteudo__principal__card__sugestao__esquerdo__icones"
+
+                                src="./IMAGENS/Imagens--Codigo/Icones/icone_carrinho_de_compras.png" alt="icone carrinho de compras"
+                    
+                            > 
+
+                        </div>
+
+                    </div>
+
+                    <div class="conteudo__principal__card__sugestao__direito">
+
+                        <img class="conteudo__principal__card__sugestao__direito__imagem"
+
+                            src="./IMAGENS/Imagens--Codigo/usadas no cartoes/Angular.png" alt="Foto do Angular"
+                    
+                        > 
+
+                        <a class="conteudo__principal__card__sugestao__direito__botao"
+                               
+                            href= " " target="_blank" > <!-- não vai ter link -->
+                            Saiba mais
+
+                        </a>
+   
+                    </div>
+            
+                </section>
+
+            </div>
+        
+        </section>
+
+        <section class="conteudo__principal__carrossel">
+
+            <h2  class="conteudo__principal__carrossel__titulo">
+
+                Mais vendidos
+
+            </h2>
+
+            <div class="conteudo__principal__carrossel__divisao">
+
+                <div class="conteudo__principal__carrossel__com__paginacao">
+
+
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Liderança.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/ReactNative.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Angular.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/MetricasAgeis.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Arquitetura.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Portugol.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Gestão.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Gestão2.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Javascript.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Arquitetura.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/MEAN.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/ApacheKafka.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/MetricasAgeis.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Nodejs.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Acessibilidade.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/ReactNative.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Arquitetura.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/Tuning.png" alt="livro"></div>
+                    <div class="swiper-slide"><img src="./IMAGENS/Imagens--Codigo/Livros/UX.png" alt="livro"></div>
+                    ...
+                    </div>
+            
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper__setas"></div>
+                    <div class="swiper-button-next swiper__setas"></div>
+            
+                    <!-- If we need scrollbar -->
+                    </div>
+                
+                </div>
+
+                <section class="conteudo__principal__card__sugestao">
+
+                    <div class="conteudo__principal__card__sugestao__esquerdo">
+
+                        <img class="conteudo__principal__card__sugestao__esquerdo__estrelas"
+                        
+                            src="./IMAGENS/Imagens--Codigo/usadas no cartoes/Estrelinhas.png" alt="estrelinhas"
+                        
+                        >
+                        
+                        <h2 class="conteudo__principal__card__sugestao__esquerdo__titulo">
+                            
+                            Autora do Mês
+                            
+                        <h2>
+
+                        <h3 class="conteudo__principal__card__sugestao__esquerdo_subtitulo">
+                            
+                            Juliana Agarikov
+                                
+                        <h3>
+
+                        <p class="conteudo__principal__card__sugestao__esquerdo_paragrafo">
+
+                            Analista de sistemas e escritora, Juliana é especialista em Front-End. 
+
+                        </p>    
+
+                        <div class="conteudo__principal__card__sugestao__esquerdo__div__icones">
+
+                            <img class="conteudo__principal__card__sugestao__esquerdo__icones"
+
+                                src="./IMAGENS/Imagens--Codigo/Icones/Favoritos.png" alt="icone favorito"
+                    
+                            > 
+
+                            <img class="conteudo__principal__card__sugestao__esquerdo__icones"
+
+                                src="./IMAGENS/Imagens--Codigo/Icones/icone_carrinho_de_compras.png" alt="icone carrinho de compras"
+                    
+                            > 
+
+                        </div>
+
+                    </div>
+
+                    <div class="conteudo__principal__card__sugestao__direito">
+
+                        <img class="conteudo__principal__card__sugestao__direito__imagem"
+
+                            src="./IMAGENS/Imagens--Codigo/usadas no cartoes/Perfil-escritora 1.png" alt="Foto do Angular"
+                    
+                        > 
+
+                        <a class="conteudo__principal__card__sugestao__direito__botao"
+                               
+                            href= " " target="_blank" > <!-- não vai ter link -->
+                            Saiba mais
+
+                        </a>
+   
+                    </div>
+            
+                </section>
+
+            </div>
+        
+        </section>
+
+        <section class="conteudo__principal__topicos">
+
+            <h2 class="conteudo__principal__topicos__titulo">
+
+                TÓPICOS VISITADOS RECENTEMENTE
+
+            </h2>
+
+            <ul class="conteudo__principal__topicos__lista">
+                        
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        OO
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Marketing Digital
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Agile
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Startups
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        HTML & CSS
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Java
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Python
+                
+                    </a>
+
+                </li>
+
+                <li class="conteudo__principal__topicos__lista__intens">
+                    
+                    <a class="conteudo__principal__topicos__lista__link"
+                        
+                        href= " " target="_blank" > <!-- não vai ter link -->
+                        Android
+                
+                    </a>
+
+                </li>
+
+            </ul>  
+        
+        </section>
+
+        <section class="conteudo__principal__mail">
+
+            <div class="conteudo__principal__mail__lado_esquerdo">
+
+                <h4 class="conteudo__principal__mail__lado_esquerdo_titulo" >
+
+                    Fique por dentro das novidades!
+
+                </h4>
+
+                <p  class="conteudo__principal__mail__lado_esquerdo_paragrafo">
+
+                    Atualizações de e-books, novos livros, promoções e outros.
+
+
+                </p>
+
+            </div>
+
+            <div class="conteudo__principal__mail__lado__direito">
+
+                <input type="search" class="conteudo__principal__mail__lado__direito__caixa__de_pesquisa" placeholder="Cadastre seu e-mail">
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+    <footer class="conteudo__principal__rodape">
+
+        <section class="conteudo__principal__rodape__secao">
+
+            <h4 class="conteudo__principal__rodape__secao__titulo__Alura">
+               
+                Grupo Alura
+            
+            </h4>
+
+            <p class="conteudo__principal__rodape__secao__um__titulo__dono">
+
+                Desenvolvido por Thiago Abraao
+
+            </p>
+
+
+        </section>
+
+        <section class="conteudo__principal__rodape__secao">
+
+            <h4 class="conteudo__principal__rodape__secao__titulo">
+               
+                EDUCAÇÃO
+            
+            </h4>
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação/Frame 126.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação/Frame 127.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+        </section>
+
+        <section class="conteudo__principal__rodape__secao">
+
+            <h4 class="conteudo__principal__rodape__secao__titulo">
+               
+                EDUCAÇÃO ONLINE
+            
+            </h4>
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 126.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 127.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 128.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 129.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 130.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 131.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Educação Online/Frame 132.png" alt="Foto do Grupoo Alura"
+               
+            > 
+
+        </section>
+
+        <section class="conteudo__principal__rodape__secao">
+
+            <h4 class="conteudo__principal__rodape__secao__titulo">
+               
+                COMUNIDADE
+            
+            </h4>
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 126.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 127.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 128.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 129.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 130.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 131.png" alt="Foto do Grupoo Alura"
+                    
+            > 
+
+            <img class="conteudo__principal__rodape__secao__imagem"
+
+                src="./IMAGENS/Imagens--Codigo/Grupo Alura/Comunidade/Frame 132.png" alt="Foto do Grupoo Alura"
+               
+            > 
+
+        </section>  
+
+    </footer>
+
+    <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        
+        const swiper = new Swiper('.swiper', {
+            
+            speed: 400,
+            spaceBetween: 100,
+            slidesPerView: 3,
+            spaceBetween: 10,
+
+            autoplay: {
+                delay: 3000,
+            },    
+
+            effect: 'coverflow',
+            coverflowEffect: {
+               
+                rotate: -25,
+                slideShadows: false,
+
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            grabCursor : true,
+
+        });
+    
+    </script> 
+
+</body>    
+
+<!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+</html>

@@ -2,14 +2,20 @@
 /* _______________________________________________________________________________________ */
 
 /*  importacoes de estilo do header  */
-@import url("../CSS/header/cabecalho.css");
-@import url("../CSS/header/menu.hamburguer.css");
+@import url("./header/cabecalho.css");
+@import url("./header/menu.hamburguer.css");
 /*  importacoes de estilo do main  */
-
+@import url("./main/banner.css");
+@import url("./main/carrossel.css");
+@import url("./main/card__sugestao.css");
+@import url("./main/topicos.css");
+@import url("./main/mail.css");
 /*  importacoes de estilo do footer */
+@import url("./footer/rodape.css");
 
 /*  importacoes de fontes */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 
 /* Todo o conteudo da pagina  */
@@ -24,9 +30,11 @@
     --cor-terceiaria :  #000000;
     --cor-quartenaria :  linear-gradient(98deg, #002F52 35.49%, #326589 165.37%); 
     --cor-quintenaria:  #EB9B00; 
+    --cor-sextiaria:  #002F52;
+    --cor-setimaria : #858585;
 
 
-    --fonte-principal: '';
+    --fonte-principal:  'Poppins', sans-serif;
     --fonte-secundaria: 'Josefin Sans', sans-serif;
      
 }
@@ -35,7 +43,7 @@
 
     background-color: var(--cor-secundaria);
     color: var(--cor-terceiaria);
-
+    height: 100vh;
 
 }
 
