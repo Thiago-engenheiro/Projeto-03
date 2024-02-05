@@ -34,6 +34,15 @@
 
 }
 
+.cabecalho__parte3__compras__cabecalho__parte3__conjunto {
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
 .checkbox__botao {
 
     display: none;
@@ -74,3 +83,44 @@
 }  
 
 
+@media (max-width: 1600px ) {
+
+    .cabecalho__parte3 {
+
+        gap: 60px;
+    
+    }
+
+
+    .cabecalho__parte3__nome__icone {
+
+        display: none;
+    
+    }  
+    
+}
+
+
+@media (max-width: 900px ) {
+
+    .cabecalho__inteiro {
+
+        padding: 20px 0% 20px 0%;
+        justify-content: center;
+    
+    }
+
+    .cabecalho__parte2 {
+
+        display: none;
+    
+    }
+
+    .cabecalho__parte1__nome__do__site { 
+
+        display: none;
+        
+    }   
+
+
+}

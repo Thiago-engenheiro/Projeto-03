@@ -53,3 +53,36 @@
     width: 200px;
     
 }
+
+@media (max-width: 1600px ) {
+
+    .conteudo__principal__carrossel__divisao {
+
+        flex-direction: column;
+        
+    }
+
+}
+
+@media (max-width: 900px ) {
+
+    .swiper {
+
+        width: 600px;
+        margin: 0px;
+    
+    }   
+
+    .swiper__setas {
+
+        display: none;
+    }    
+
+    .swiper-slide img {
+
+        width: 150px;
+        
+    }
+
+
+}    

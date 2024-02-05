@@ -2,7 +2,8 @@
 
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    padding: 40px;
+    padding: 40px 40px 0px 0px;
+    border-top: 1px solid black;
     
 }  
 
@@ -10,9 +11,23 @@
 
     display: flex;
     flex-direction: column;
+    margin: 0px 0px 0px 20px;
     gap: 20px;
-    
-}  
+    border-right: 1px solid black;
+}    
+
+.sem__borda {
+
+    border-right: none
+}    
+
+
+.conteiner__cor {
+
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+
+}    
 
 .conteudo__principal__rodape__secao__titulo__Alura {
 
@@ -28,21 +43,37 @@
 .conteudo__principal__rodape__secao__um__titulo__dono {
 
     font-family: var(--fonte-principal);
-    color: var(--cor-primaira);
+    color: var(--cor-terceiaria);
     font-size: 1.0em;
     font-weight: 700;
-    text-align: left;
-    background-color: var(--cor-quintenaria);
-
-    padding: 2px 0px 2px 40px;
+    text-align: center;
+    margin: 100% 0px 25px 0px;
     
 }  
 
+.conteudo__principal__rodape__secao__div {
+
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+
 .conteudo__principal__rodape__secao__imagem {
 
-    width: 100px; 
-    height: auto; 
+    width: 30px;
+    height: 30px;
     margin-right: 10px; 
+    
+}  
+
+
+.conteudo__principal__rodape__secao__imagem__titulo {
+
+    font-family: var(--fonte-principal);
+    color: var(--cor-setimaria);
+    font-size: 0.9em;
+    font-weight: 400; 
     
 }  
 
@@ -55,4 +86,20 @@
     text-align: left;
     
 } 
+
+@media (max-width: 900px ) {
+
+    .conteudo__principal__rodape {
+
+        display: flex;
+        
+    } 
+
+    .conteudo__principal__rodape__secao {
+
+        display: none;
+        
+    } 
+
+}    
 

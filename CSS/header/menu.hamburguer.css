@@ -80,6 +80,7 @@
 
     padding: 30px;
 
+
 }    
 
 .intens__fundo__diferente:hover {
@@ -88,3 +89,20 @@
     color: var(--cor-primaira);
 
 }    
+
+@media (max-width: 900px ) {
+
+    .seta {
+    
+        display: none;
+    
+    }   
+
+    .intens__fundo__diferente {
+
+        display: none;
+    
+    }
+
+
+}

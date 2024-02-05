@@ -87,3 +87,38 @@
     width: 100px;
 
 }    
+
+@media (max-width: 900px ) {
+
+    .conteudo__principal__card__sugestao {
+
+        width: 500px;
+        height: 280px;
+    
+    }   
+ 
+    .conteudo__principal__card__sugestao__esquerdo__titulo {
+
+        font-size: 1.3em;
+    
+    }
+
+    .conteudo__principal__card__sugestao__esquerdo_subtitulo {
+
+        font-size: 1.2em;
+    
+    }  
+    
+    .conteudo__principal__card__sugestao__esquerdo_paragrafo {
+     
+        font-size: 1em;
+        
+    } 
+
+    .conteudo__principal__card__sugestao__direito__imagem {
+
+        width: 180px;
+     
+    } 
+
+}         
