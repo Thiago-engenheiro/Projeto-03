@@ -105,8 +105,14 @@
 
     .cabecalho__inteiro {
 
-        padding: 20px 0% 20px 0%;
-        justify-content: center;
+        padding: 20px 60px 20px 60px;
+        justify-content:space-between;
+       
+    }
+
+    .cabecalho__parte1 {
+       
+        gap: 25px;
     
     }
 
@@ -121,6 +127,12 @@
         display: none;
         
     }   
+
+    .cabecalho__parte3 {
+
+        gap: 20px;
+    
+    }
 
 
 }

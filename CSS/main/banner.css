@@ -62,7 +62,7 @@
     .conteudo__principal__banner {
 
         background: var(--cor-quartenaria);
-        padding: 60px 170px 60px 170px;
+        padding: 60px 15% 60px 15%;
         text-align: center;
         justify-content: center;
     
@@ -82,7 +82,7 @@
 
     .conteudo__principal__banner__caixa__de__pesquisa  {
 
-        width: 400px;
+        width: 100%;
         padding: 1em;
        
     }
@@ -94,5 +94,7 @@
     }    
 
 }
+
+
 
 

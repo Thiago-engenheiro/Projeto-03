@@ -16,6 +16,17 @@
     border-right: 1px solid black;
 }    
 
+
+.conteudo__principal__rodape__secao__diferente {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 20px;
+    gap: 20px;
+    border-right: 1px solid black;
+
+}    
+
 .sem__borda {
 
     border-right: none
@@ -92,6 +103,10 @@
     .conteudo__principal__rodape {
 
         display: flex;
+        padding: 40px 0px 0px 0px;
+        align-items: center;
+        justify-content: center;
+
         
     } 
 
@@ -100,6 +115,18 @@
         display: none;
         
     } 
+
+    .conteudo__principal__rodape__secao__diferente {
+
+        border-right: none;
+    
+    }  
+
+    .conteudo__principal__rodape__secao__um__titulo__dono {
+      
+        margin: 20% 0px 25px 0px;
+        
+    }  
 
 }    
 

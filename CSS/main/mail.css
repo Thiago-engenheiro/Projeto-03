@@ -59,8 +59,14 @@
 
         flex-direction: column;
         padding: 40px 20px 40px 20px;
+        align-items: center;
        
     }   
+
+    .conteudo__principal__mail__lado_esquerdo {
+
+        justify-content: center;
+    } 
     
 
 }    
