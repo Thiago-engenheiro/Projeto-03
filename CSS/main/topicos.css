@@ -52,4 +52,30 @@
     
     }
 
-}     
+    .conteudo__principal__topicos {
+
+        background: var(--cor-quartenaria);
+        padding: 45px 55px 65px 45px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+    }    
+
+    .conteudo__principal__topicos__lista {
+        
+        padding: 0px ;
+   
+    }
+
+}    
+
+@media (max-width: 900px ) {
+
+    .conteudo__principal__topicos {
+
+        padding: 45px 10px 45px 10px;
+    
+    }   
+
+} 

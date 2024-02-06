@@ -119,6 +119,8 @@
     .conteudo__principal__rodape__secao__diferente {
 
         border-right: none;
+        align-items: center;
+        justify-content: center;
     
     }  
 

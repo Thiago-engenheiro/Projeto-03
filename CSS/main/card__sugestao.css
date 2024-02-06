@@ -121,4 +121,48 @@
      
     } 
 
-}         
+}  
+
+@media (max-width: 550px ) {
+
+    .conteudo__principal__card__sugestao {
+
+        width: 330px;
+        height: 250px;
+        gap: 20px;
+    
+    }    
+
+    .conteudo__principal__card__sugestao__esquerdo {
+
+        margin: 0px 0px 0px 0px;
+    
+    }   
+
+    .conteudo__principal__card__sugestao__esquerdo__titulo {
+
+        font-size: 0.9em;
+        font-weight: 700;
+    
+    }   
+    
+    .conteudo__principal__card__sugestao__esquerdo_subtitulo {
+    
+        font-size: 1.1em;
+    
+    }   
+    
+    .conteudo__principal__card__sugestao__esquerdo_paragrafo {
+
+        font-size: 0.9em;
+    
+    }   
+
+    .conteudo__principal__card__sugestao__direito__imagem {
+
+        width: 150px;
+     
+    }  
+
+
+}    

@@ -95,6 +95,36 @@
 
 }
 
+@media (max-width: 550px ) {
+
+    .conteudo__principal__banner {
+
+        padding: 65px 20px 65px 20px;
+    
+    }
+
+    .conteudo__principal__banner__titulo {
+ 
+        font-size: 1.2em;
+        
+    }
+
+    .conteudo__principal__banner__paragrafo {
+
+        font-size: 1em;
+       
+    }
+
+    .conteudo__principal__banner__caixa__de__pesquisa  {
+
+        width: 100%;
+      
+    }
+
+
+}    
+
+
 
 
 

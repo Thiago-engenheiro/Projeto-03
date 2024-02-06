@@ -68,5 +68,34 @@
         justify-content: center;
     } 
     
-
 }    
+
+@media (max-width: 900px ) {
+
+    .conteudo__principal__mail {
+
+        padding: 25px 10px 25px 10px;
+        gap: 25px;
+        align-items: center;
+       
+    }    
+
+    .conteudo__principal__mail__lado_esquerdo {
+
+        justify-content: center;
+    }
+
+    .conteudo__principal__mail__lado__direito {
+
+        justify-content: center;
+    }
+
+
+    .conteudo__principal__mail__lado__direito__caixa__de_pesquisa {
+
+       width: 370px;
+        
+    }
+    
+
+} 

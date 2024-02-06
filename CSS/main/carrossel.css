@@ -66,9 +66,15 @@
 
 @media (max-width: 900px ) {
 
+    .conteudo__principal__carrossel__divisao {
+
+        margin: 50px 0px 50px 0px;
+        gap: 60px;
+    }
+
     .swiper {
 
-        width: 600px;
+        width: 550px;
         margin: 0px;
     
     }   
@@ -80,9 +86,31 @@
 
     .swiper-slide img {
 
-        width: 150px;
+        width: 180px;
         
     }
 
-
 }    
+
+@media (max-width: 550px ) {
+
+    .conteudo__principal__carrossel__titulo {
+
+        font-size: 1.5em;
+        padding: 20px 0px 20px 0px;
+        
+    }
+
+    .swiper {
+
+        width: 400px;
+       
+    }   
+
+    .swiper-slide img {
+
+        width: 135px;
+        
+    }
+
+}     
