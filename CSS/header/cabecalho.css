@@ -122,6 +122,18 @@
     
     }
 
+    .cabecalho__parte1__icone__hamburguer {
+
+        display: none;
+    
+    }
+
+    .icone__ocutar {
+
+        display: none;
+    
+    }
+
     .cabecalho__parte1__nome__do__site { 
 
         display: none;
